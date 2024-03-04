@@ -1,5 +1,5 @@
 # INarrator
-![](https://github.com/keenborder786/# INarrator/blob/main/assets/Logo.png)
+![](https://github.com/keenborder786/INarrator/blob/main/assets/Logo.png)
 
 ## Install the Package
 
