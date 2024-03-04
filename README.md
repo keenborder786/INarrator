@@ -12,7 +12,7 @@ pip install inarrator
 ### Gmail
 
 1. In the Google Cloud console, enable the Gmail [API](https://console.cloud.google.com/flows/enableapi?apiid=gmail.googleapis.com).
-![](https://github.com/keenborder786/# INarrator/blob/48034edb1934c7cdec3117f42a60d9b580c2713d/assets/Image_1_Gmail.png)
+![](https://github.com/keenborder786/INarrator/blob/48034edb1934c7cdec3117f42a60d9b580c2713d/assets/Image_1_Gmail.png)
 
 2. Register your App
 
