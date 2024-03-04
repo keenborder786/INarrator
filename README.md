@@ -26,7 +26,7 @@ pip install inarrator
     - Go to [Credentials](https://console.cloud.google.com/apis/credentials)
     - Click `+ CREATE CREDENTIALS > OAuth client ID`
     - SELECT `Desktop app` as application type
-    ![](https://github.com/keenborder786/# INarrator/blob/bca253b67bc6c3884aaf0815afd6ed3f9a80b3af/assets/Image_3_Gmail.png)
+    ![](https://github.com/keenborder786/INarrator/blob/bca253b67bc6c3884aaf0815afd6ed3f9a80b3af/assets/Image_3_Gmail.png)
     - After this a pop up will appear which will have a option to DOWNLOAD OAuth Client JSON file.
     - Save the JSON and rename it to `gmail_credentials.json`
 
@@ -87,7 +87,7 @@ pip install inarrator
 
 2. Request API permissions (Only Mail.Read)
 
-![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_3_Outlook.png)
+![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_3_Outlook.png)
 
 
 3. Configure the Platform
@@ -101,7 +101,7 @@ pip install inarrator
 4. Create a new client secret
 
     - Click on `+ New client secret`.
-    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_2_Outlook.png)
+    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_2_Outlook.png)
     - Now create the following JSON and name it `outlook_credentials.json`. You can get `Application (client) ID` & `Directory (tenant) ID` from overview of your App.
     ```json
     {"application_id":"Application (client) ID",
