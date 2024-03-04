@@ -1,5 +1,5 @@
-INarrator
-![](https://github.com/keenborder786/INarrator/blob/main/assets/Logo.png)
+# INarrator
+![](https://github.com/keenborder786/# INarrator/blob/main/assets/Logo.png)
 
 ## Install the Package
 
@@ -12,13 +12,13 @@ pip install inarrator
 ### Gmail
 
 1. In the Google Cloud console, enable the Gmail [API](https://console.cloud.google.com/flows/enableapi?apiid=gmail.googleapis.com).
-![](https://github.com/keenborder786/INarrator/blob/48034edb1934c7cdec3117f42a60d9b580c2713d/assets/Image_1_Gmail.png)
+![](https://github.com/keenborder786/# INarrator/blob/48034edb1934c7cdec3117f42a60d9b580c2713d/assets/Image_1_Gmail.png)
 
 2. Register your App
 
     - In the Google Cloud console, go to [OAuth Consent screen](https://console.cloud.google.com/apis/credentials/consent)
     - Once on OAuth Consent Screen, select User Type External and then click create:
-    ![](https://github.com/keenborder786/INarrator/blob/90abfdb444974c2dc2fb91be4afc86e288397564/assets/Image_2_Gmail.png)
+    ![](https://github.com/keenborder786/# INarrator/blob/90abfdb444974c2dc2fb91be4afc86e288397564/assets/Image_2_Gmail.png)
     - Now complete the registration of your app which is fairly simple. Just remember two things:
         - Since this is a Testing App, you will have to add some test users (ideally make it the same email through which you are registering the app)
         - Add `.../auth/gmail.readonly` scope
@@ -26,7 +26,7 @@ pip install inarrator
     - Go to [Credentials](https://console.cloud.google.com/apis/credentials)
     - Click `+ CREATE CREDENTIALS > OAuth client ID`
     - SELECT `Desktop app` as application type
-    ![](https://github.com/keenborder786/INarrator/blob/bca253b67bc6c3884aaf0815afd6ed3f9a80b3af/assets/Image_3_Gmail.png)
+    ![](https://github.com/keenborder786/# INarrator/blob/bca253b67bc6c3884aaf0815afd6ed3f9a80b3af/assets/Image_3_Gmail.png)
     - After this a pop up will appear which will have a option to DOWNLOAD OAuth Client JSON file.
     - Save the JSON and rename it to `gmail_credentials.json`
 
@@ -83,25 +83,25 @@ pip install inarrator
 
 
 1.  Create a New App [Registration](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)
-![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_1_Outlook.png)
+![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_1_Outlook.png)
 
 2. Request API permissions (Only Mail.Read)
 
-![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_3_Outlook.png)
+![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_3_Outlook.png)
 
 
 3. Configure the Platform
 
     - Add a Mobile and Desktop Application
-    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_4_Outlook.png)
+    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_4_Outlook.png)
     - Choose the Following Configuration
-    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_5_Outlook.png)
+    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_5_Outlook.png)
 
 
 4. Create a new client secret
 
     - Click on `+ New client secret`.
-    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_2_Outlook.png)
+    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_2_Outlook.png)
     - Now create the following JSON and name it `outlook_credentials.json`. You can get `Application (client) ID` & `Directory (tenant) ID` from overview of your App.
     ```json
     {"application_id":"Application (client) ID",
