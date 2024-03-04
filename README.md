@@ -83,7 +83,7 @@ pip install inarrator
 
 
 1.  Create a New App [Registration](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)
-![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_1_Outlook.png)
+![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_1_Outlook.png)
 
 2. Request API permissions (Only Mail.Read)
 
