@@ -18,7 +18,7 @@ pip install inarrator
 
     - In the Google Cloud console, go to [OAuth Consent screen](https://console.cloud.google.com/apis/credentials/consent)
     - Once on OAuth Consent Screen, select User Type External and then click create:
-    ![](https://github.com/keenborder786/# INarrator/blob/90abfdb444974c2dc2fb91be4afc86e288397564/assets/Image_2_Gmail.png)
+    ![](https://github.com/keenborder786/INarrator/blob/90abfdb444974c2dc2fb91be4afc86e288397564/assets/Image_2_Gmail.png)
     - Now complete the registration of your app which is fairly simple. Just remember two things:
         - Since this is a Testing App, you will have to add some test users (ideally make it the same email through which you are registering the app)
         - Add `.../auth/gmail.readonly` scope
@@ -93,9 +93,9 @@ pip install inarrator
 3. Configure the Platform
 
     - Add a Mobile and Desktop Application
-    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_4_Outlook.png)
+    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_4_Outlook.png)
     - Choose the Following Configuration
-    ![](https://github.com/keenborder786/# INarrator/blob/main/assets/Image_5_Outlook.png)
+    ![](https://github.com/keenborder786/INarrator/blob/main/assets/Image_5_Outlook.png)
 
 
 4. Create a new client secret
